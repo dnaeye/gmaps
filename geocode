@@ -37,7 +37,7 @@ with open(r"D:\Users\dhong\Documents\Code\Python\addresses in.csv","r") as infil
         street_address_length = len(row['Shipping Address'])
         street_address_number = re.search('\d',row['Shipping Address'])
         street_address_number = street_address_number.start()
-        row['Shipping Address'] = row['Shipping Address'][street_address_number:street_address_length]
+        row['Shipping Address'] = row['Shipping Address'][street_address_number:street_address_length].title()
         
         # call Google Maps API Geocode function
         address = row['Shipping Address'] + ',' + row['City'] + ',' + row['State']
