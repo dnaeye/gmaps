@@ -15,7 +15,7 @@ for more info.
 # import relevant python modules
 import csv, time, re, googlemaps
 
-gmaps = googlemaps.Client(key='AIzaSyCCwQ7oazN5jB9wTV3pet5vr744Vf1A8VQ')
+gmaps = googlemaps.Client(key='ENTER_UNIQUE_API_KEY')
 
 # import data file of store addresses
 with open(r"D:\Users\dhong\Documents\Code\Python\addresses in.csv","r") as infile:
