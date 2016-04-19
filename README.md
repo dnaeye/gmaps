@@ -8,7 +8,7 @@ Google Maps API scripts for getting map data. See Google's [documentation](https
 Get public transit stats for multiple routes. Stats include total distance and duration as well as breakdowns by walking and transit, including the total number of stops. Inputted information for the origin and destination can be formatted in standard U.S. address syntax: street address, city, state, and zip code (e.g., 1234 Anyplace St., Anywhere, AW, 12345).
 
 ### GeocodeAddress
-##### Filename: [geocode.py](https://github.com/dnaeye/gmaps/blob/master/geocodeaddress.py)
+##### Filename: [GeocodeAddress.py](https://github.com/dnaeye/gmaps/blob/master/geocodeaddress.py)
 Get geocode data (postal code, GPS coordinates) for an address via the Google Maps API. Script also cleans the street address by removing any characters before the street number.
 
 ### Geocoder
